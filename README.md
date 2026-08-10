@@ -7,3 +7,4 @@ Each page lives in its own top-level folder as `index.html`, so it gets a clean 
 ## Pages
 
 - [MnemeDrivePrivacyPolicy](MnemeDrivePrivacyPolicy/) — Privacy Policy for [MnemeDrive](https://github.com/okilah/MnemeDrive)
+- [MnemeDriveTermsOfUse](MnemeDriveTermsOfUse/) — Terms of Use for [MnemeDrive](https://github.com/okilah/MnemeDrive)
