@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MnemeDrive Support</title>
+<meta name="description" content="Support contact for the MnemeDrive iOS dashcam app.">
+<style>
+  :root {
+    --ink: #1b1e22;
+    --ink-soft: #565c63;
+    --paper: #ffffff;
+    --surface: #f6f7f8;
+    --line: #e2e4e7;
+    --accent: #3c6e52;
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #eceeef;
+      --ink-soft: #a7adb3;
+      --paper: #16181b;
+      --surface: #1e2124;
+      --line: #2c2f33;
+      --accent: #7ab596;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 56px 24px 88px;
+  }
+
+  .brand {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0 0 28px;
+  }
+
+  .email-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin: 0 0 24px;
+  }
+
+  .email-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+  }
+
+  .email-card a {
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .email-card a:hover,
+  .email-card a:focus-visible {
+    text-decoration: underline;
+  }
+
+  p {
+    font-size: 15.5px;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  footer a { color: var(--accent); }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 40px 18px 64px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="brand">MnemeDrive</p>
+    <h1>Support</h1>
+
+    <div class="email-card">
+      <p class="email-label">Email</p>
+      <a href="mailto:me@gdogra.com">me@gdogra.com</a>
+    </div>
+
+    <p>For help, questions, or feedback about MnemeDrive, please contact us directly.</p>
+
+    <footer>
+      MnemeDrive &middot; <a href="https://github.com/okilah/MnemeDrive">github.com/okilah/MnemeDrive</a>
+    </footer>
+  </div>
+</body>
+</html>

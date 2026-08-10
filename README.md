@@ -8,3 +8,4 @@ Each page lives in its own top-level folder as `index.html`, so it gets a clean 
 
 - [MnemeDrivePrivacyPolicy](MnemeDrivePrivacyPolicy/) — Privacy Policy for [MnemeDrive](https://github.com/okilah/MnemeDrive)
 - [MnemeDriveTermsOfUse](MnemeDriveTermsOfUse/) — Terms of Use for [MnemeDrive](https://github.com/okilah/MnemeDrive)
+- [MnemeDriveSupportPage](MnemeDriveSupportPage/) — Support contact page for [MnemeDrive](https://github.com/okilah/MnemeDrive)
