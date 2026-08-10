@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MnemeDrive Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the MnemeDrive iOS dashcam app.">
+<style>
+  :root {
+    --ink: #1b1e22;
+    --ink-soft: #565c63;
+    --paper: #ffffff;
+    --surface: #f6f7f8;
+    --line: #e2e4e7;
+    --accent: #3c6e52;
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #eceeef;
+      --ink-soft: #a7adb3;
+      --paper: #16181b;
+      --surface: #1e2124;
+      --line: #2c2f33;
+      --accent: #7ab596;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 88px;
+  }
+
+  .brand {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+  }
+
+  .effective-date {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin: 0 0 28px;
+  }
+
+  .intro {
+    font-size: 16px;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: -0.005em;
+    margin: 36px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
+  }
+
+  section:first-of-type h2 {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 8px;
+  }
+
+  p {
+    font-size: 15.5px;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+
+  li {
+    font-size: 15.5px;
+    margin-bottom: 6px;
+  }
+
+  a { color: var(--accent); }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 40px 18px 64px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="brand">MnemeDrive</p>
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective Date: August 10, 2026</p>
+
+    <p class="intro">MnemeDrive ("we," "us," or "our") is committed to being straightforward about how the app works and what happens to your data. This Privacy Policy describes the information MnemeDrive handles, where it lives, and your rights with respect to it.</p>
+
+    <section>
+      <h2>1. No Backend &mdash; Your Data Stays on Your Device</h2>
+      <p>MnemeDrive operates entirely on your device. We do not operate any servers, databases, or cloud infrastructure of our own. We do not collect, transmit, or store any personal data on company-owned systems. There are no analytics SDKs, crash reporters, advertising networks, or third-party tracking integrations of any kind in the app.</p>
+      <p>All data either stays on your device or flows directly to Apple as part of using Apple's own frameworks (Sign in with Apple, StoreKit/App Store, Photos, Keychain). Our Privacy Policy governs only MnemeDrive's own data practices; Apple's handling of data through its frameworks is governed by Apple's Privacy Policy, available at <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>.</p>
+    </section>
+
+    <section>
+      <h2>2. Information the App Handles</h2>
+
+      <h3>2.1 Sign in with Apple Identifier</h3>
+      <p>When you sign in, Apple provides MnemeDrive with an opaque, Apple-issued user identifier. This identifier is not your name or email address unless you chose to share those during the Apple sign-in flow. It is stored locally in your device's UserDefaults and is used only to maintain your signed-in state within the app. It is sent to Apple as part of the standard Sign in with Apple authentication flow; MnemeDrive does not transmit it anywhere else.</p>
+
+      <h3>2.2 Recorded Video and Audio</h3>
+      <p>Your recordings &mdash; front-facing road footage, rear/cabin footage, and any in-cabin audio &mdash; are saved as video files in the app's sandboxed local storage on your device. They do not leave your device unless you explicitly export a clip to your own Photos library, at which point that clip becomes subject to iOS's standard Photos handling.</p>
+      <p>MnemeDrive has no access to your recordings once they are exported. We have no visibility into how you use, share, or distribute any footage.</p>
+
+      <h3>2.3 Recording Metadata</h3>
+      <p>Per-clip metadata &mdash; creation date, custom clip name, locked/protected status &mdash; is stored in a local JSON file in the app's sandboxed storage. It does not leave the device.</p>
+
+      <h3>2.4 Subscription and Purchase Data</h3>
+      <p>Your subscription status (plan type, trial status, expiration) is derived from Apple's StoreKit transaction records each time the app checks. MnemeDrive does not independently store billing or payment data. All billing, renewal, cancellation, and refund handling is managed by Apple.</p>
+
+      <h3>2.5 Quality-Setting Consent Log</h3>
+      <p>Each time you change the video quality setting (to Medium or back to High), the app records the selection, the disclaimer text shown to you, and the timestamp. This log is stored in the iOS Keychain on your device and is not transmitted to MnemeDrive or any third party.</p>
+      <p>Note: this log is stored only on your device. MnemeDrive cannot access it remotely and has no means of retrieving it.</p>
+
+      <h3>2.6 Device Permissions</h3>
+      <p>The app requests Camera, Microphone, and add-only Photo Library access. These permission states are managed by iOS and are not transmitted to MnemeDrive. The add-only Photo Library permission means MnemeDrive can save a video into your Photos library but cannot read, browse, or manage the rest of your photo library.</p>
+
+      <h3>2.7 What We Do Not Collect</h3>
+      <p>MnemeDrive does not collect: location or GPS data; contacts; device identifiers (IDFA or similar); analytics or usage telemetry; advertising identifiers; or any data not described in this section.</p>
+    </section>
+
+    <section>
+      <h2>3. Third-Party Bystander Recording &mdash; Your Responsibility</h2>
+      <p>MnemeDrive is a dashcam application. By its nature, it records video and audio of people who are not users of the app &mdash; other drivers, pedestrians, passengers in your vehicle, bystanders, and others. Laws governing recording of third parties, particularly audio recording, vary significantly by jurisdiction.</p>
+      <p>YOU ARE SOLELY RESPONSIBLE FOR ENSURING THAT YOUR USE OF MNEME DRIVE COMPLIES WITH ALL APPLICABLE LAWS IN YOUR JURISDICTION, INCLUDING WITHOUT LIMITATION:</p>
+      <ul>
+        <li>Laws governing video surveillance in public and private spaces;</li>
+        <li>Audio recording consent laws (including one-party and all-party consent requirements);</li>
+        <li>Laws specific to dashcam use in your country, state, or region;</li>
+        <li>Any disclosure or consent obligations toward passengers in your vehicle.</li>
+      </ul>
+      <p>MnemeDrive provides no in-app mechanism to obtain or record consent from bystanders or passengers. It is your obligation to determine whether use of the app is lawful where you are and in the manner you intend, and to comply with any required disclosures or consent obligations. MnemeDrive disclaims all liability for your failure to comply with applicable recording laws.</p>
+    </section>
+
+    <section>
+      <h2>4. Data Retention and Deletion</h2>
+      <p>Recordings are deleted automatically (oldest unprotected clips first) once your chosen storage allocation is full, or at any time manually from the clip detail screen. Marking a clip "protected" exempts it from automatic deletion but not manual deletion.</p>
+
+      <h3>What "Sign Out" does and does not do</h3>
+      <p>Signing out clears your local sign-in state only. Your recordings, recording metadata, and the quality-setting consent log all remain on the device after signing out. They are not associated with any account we can access; we simply have no backend to clear.</p>
+
+      <h3>Deleting the app</h3>
+      <p>Uninstalling MnemeDrive removes the app's sandboxed storage, which includes your recordings and recording metadata. However, the iOS Keychain (where the quality-setting consent log is stored) may persist across an app deletion and reinstall on the same device. This is standard iOS Keychain behavior.</p>
+
+      <h3>No "delete my data" request mechanism</h3>
+      <p>Because MnemeDrive holds no data on any company server, there is no data held by us to delete upon request. Your data is yours, on your device, under your control. To remove all data the app has stored, you may uninstall the app (removes sandboxed data) and, if desired, clear the Keychain entry through your device's settings.</p>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy</h2>
+      <p>MnemeDrive is designed for use while operating a motor vehicle and is intended for adults of legal driving age. We do not knowingly collect personal information from children. If you believe a minor has used the app in violation of applicable law, please contact us at the email below.</p>
+    </section>
+
+    <section>
+      <h2>6. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the Effective Date above. Your continued use of the app after any change constitutes acceptance of the updated policy. Material changes will be communicated through the app or App Store update notes where feasible.</p>
+    </section>
+
+    <section>
+      <h2>7. Contact</h2>
+      <p>Questions about this Privacy Policy may be directed to us at <a href="mailto:me@gdogra.com">me@gdogra.com</a>.</p>
+    </section>
+
+    <footer>
+      MnemeDrive Privacy Policy &middot; <a href="https://github.com/okilah/MnemeDrive">github.com/okilah/MnemeDrive</a>
+    </footer>
+  </div>
+</body>
+</html>
